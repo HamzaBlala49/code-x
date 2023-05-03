@@ -79,7 +79,7 @@ const handleSubmit = async (e) =>{
   loader(messageDiv);
   //fetch data  that come from server
 
-  let respones = await fetch("http://localhost:5000",{
+  let respones = await fetch("https://code-x-0mgo.onrender.com",{
     method: 'POST',
     headers: {
         'Content-Type': 'application/json',
